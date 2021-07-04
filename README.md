@@ -1,1 +1,1 @@
-# vaccine_alert_generator
+# Vaccine alert generator

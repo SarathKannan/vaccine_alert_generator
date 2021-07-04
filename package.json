@@ -1,0 +1,45 @@
+{
+  "name": "vaccine_alert_generator",
+  "version": "1.0.0",
+  "description": "server side app for watching vaccine slot availability",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarathKannan/vaccine_alert_generator.git"
+  },
+  "keywords": [
+    "cowin",
+    "server",
+    "vaccine",
+    "alert",
+    "notification"
+  ],
+  "author": "sarath chandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarathKannan/vaccine_alert_generator/issues"
+  },
+  "homepage": "https://github.com/SarathKannan/vaccine_alert_generator#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "delay": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.14",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "onesignal-node": "^3.2.1",
+    "querymen": "^2.1.4"
+  }
+}
