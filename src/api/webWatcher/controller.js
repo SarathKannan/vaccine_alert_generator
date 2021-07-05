@@ -3,11 +3,12 @@ import delay from "delay";
 import _ from "lodash";
 
 import { public_url, valid_days } from "../../config";
-import { get, logger } from "../../services/@others";
+import { logger } from "../../services/@others";
 import WebWatch from "./modal";
 import Alert from "../alert/model";
 import { create_notification } from "../notification/controller";
 import { remove } from "../alert/controller";
+import { get } from "../../services/fetch";
 
 const is_age_limit_ok = (age, age_group) => {
   if (

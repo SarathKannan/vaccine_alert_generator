@@ -1,5 +1,5 @@
-var mongoose = require("mongoose");
-var Schema = mongoose.Schema;
+import mongoose, { Schema } from "mongoose";
+
 
 var NotificationSchema = new Schema({
   deviceId: { type: String },
@@ -9,13 +9,14 @@ var NotificationSchema = new Schema({
   req_date: { type: String },
   alert_id: { type: Number },
   age_group: { type: Number },
-  updatedTime: {
-    type: Date,
-    default: Date.now,
-  },
   success_id: { type: String },
   display_msg: { type: String },
   isViewed: { type: Boolean, default: false },
+},{
+  timestamps: true,
 });
 
-module.exports = mongoose.model("Notification", NotificationSchema);
+const model = mongoose.model("Notification", NotificationSchema);
+
+export const schema = model.schema;
+export default model;
