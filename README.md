@@ -30,9 +30,15 @@ $ cd vaccine_alert_generator/
 
 $ npm install
   or
-  yarn
+$ yarn install
 
 $ nodemon
   or
-  node src
+$ node src
 ```
+
+
+Please Note : 
+- Create a file called .env in the root folder. 
+- Then copy and paste content in the .env.example file.
+- Replace the value with yours 
