@@ -28,6 +28,8 @@ $ git clone https://github.com/SarathKannan/vaccine_alert_generator.git
 
 $ cd vaccine_alert_generator/
 
+$ git checkout develop
+
 $ npm install
   or
 $ yarn install
